@@ -1,5 +1,5 @@
 # iOS控制器自定义转场动画
-{% asset_img one.gif 图片说明 %}
+![one](/Users/junjie/Desktop/Github仓库/自定义视图控制器转场动画/one.gif)
 
 {% asset_img two.gif 图片说明 %}
 
