@@ -16,16 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //push pop
-//        self.window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        self.window?.rootViewController = UINavigationController(rootViewController: ViewController())
         
         //tabbar
-        self.window?.rootViewController = MainViewController()
+//        self.window?.rootViewController = MainViewController()
         
         //present dismiss
 //        self.window?.rootViewController = UINavigationController(rootViewController: AViewController())
         
         //layer push pop
-//        self.window?.rootViewController = UINavigationController(rootViewController: CurrentViewController())
+//        self.window?.rootViewController = UINavigationController(rootViewController: CustomMaskViewController())
         return true
     }
 

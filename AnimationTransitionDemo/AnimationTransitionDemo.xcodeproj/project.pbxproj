@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31655B12334BF1000F476E4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31655AD2334BF1000F476E4 /* NextViewController.swift */; };
+		B31655B22334BF1000F476E4 /* CustomMaskTransiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31655AE2334BF1000F476E4 /* CustomMaskTransiton.swift */; };
+		B31655B32334BF1000F476E4 /* CustomMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31655AF2334BF1000F476E4 /* CustomMaskViewController.swift */; };
+		B31655B42334BF1000F476E4 /* CustomMaskPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31655B02334BF1000F476E4 /* CustomMaskPopTransition.swift */; };
 		B398CE5E231777370008C5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CE5D231777370008C5D3 /* AppDelegate.swift */; };
 		B398CE60231777370008C5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CE5F231777370008C5D3 /* ViewController.swift */; };
 		B398CE63231777370008C5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B398CE61231777370008C5D3 /* Main.storyboard */; };
@@ -26,8 +30,6 @@
 		B398CEA123190FD20008C5D3 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CEA023190FD20008C5D3 /* AViewController.swift */; };
 		B398CEA3231911A30008C5D3 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CEA2231911A30008C5D3 /* BViewController.swift */; };
 		B398CEA52319145B0008C5D3 /* MagicPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CEA42319145B0008C5D3 /* MagicPresentTransition.swift */; };
-		B398CEA8231FC01C0008C5D3 /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CEA7231FC01C0008C5D3 /* CurrentViewController.swift */; };
-		B398CEAA231FC0540008C5D3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398CEA9231FC0540008C5D3 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B31655AD2334BF1000F476E4 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		B31655AE2334BF1000F476E4 /* CustomMaskTransiton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMaskTransiton.swift; sourceTree = "<group>"; };
+		B31655AF2334BF1000F476E4 /* CustomMaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMaskViewController.swift; sourceTree = "<group>"; };
+		B31655B02334BF1000F476E4 /* CustomMaskPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMaskPopTransition.swift; sourceTree = "<group>"; };
 		B398CE5A231777370008C5D3 /* AnimationTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B398CE5D231777370008C5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B398CE5F231777370008C5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,8 +79,6 @@
 		B398CEA023190FD20008C5D3 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		B398CEA2231911A30008C5D3 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		B398CEA42319145B0008C5D3 /* MagicPresentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicPresentTransition.swift; sourceTree = "<group>"; };
-		B398CEA7231FC01C0008C5D3 /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
-		B398CEA9231FC0540008C5D3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +197,10 @@
 		B398CEA6231FBF1B0008C5D3 /* NavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B398CEA7231FC01C0008C5D3 /* CurrentViewController.swift */,
-				B398CEA9231FC0540008C5D3 /* NextViewController.swift */,
+				B31655B02334BF1000F476E4 /* CustomMaskPopTransition.swift */,
+				B31655AE2334BF1000F476E4 /* CustomMaskTransiton.swift */,
+				B31655AF2334BF1000F476E4 /* CustomMaskViewController.swift */,
+				B31655AD2334BF1000F476E4 /* NextViewController.swift */,
 			);
 			path = NavigationViewController;
 			sourceTree = "<group>";
@@ -333,17 +339,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B398CE9A2317CD540008C5D3 /* MainViewController.swift in Sources */,
-				B398CEAA231FC0540008C5D3 /* NextViewController.swift in Sources */,
 				B398CE9E2319031D0008C5D3 /* OtherViewController.swift in Sources */,
 				B398CE962317B5E40008C5D3 /* MagicPopTransition.swift in Sources */,
 				B398CE8E23177C700008C5D3 /* DetailTableViewCell.swift in Sources */,
 				B398CEA52319145B0008C5D3 /* MagicPresentTransition.swift in Sources */,
 				B398CEA123190FD20008C5D3 /* AViewController.swift in Sources */,
+				B31655B12334BF1000F476E4 /* NextViewController.swift in Sources */,
+				B31655B32334BF1000F476E4 /* CustomMaskViewController.swift in Sources */,
 				B398CE60231777370008C5D3 /* ViewController.swift in Sources */,
-				B398CEA8231FC01C0008C5D3 /* CurrentViewController.swift in Sources */,
+				B31655B42334BF1000F476E4 /* CustomMaskPopTransition.swift in Sources */,
 				B398CE5E231777370008C5D3 /* AppDelegate.swift in Sources */,
 				B398CEA3231911A30008C5D3 /* BViewController.swift in Sources */,
 				B398CE942317A8A30008C5D3 /* MagicPushTransition.swift in Sources */,
+				B31655B22334BF1000F476E4 /* CustomMaskTransiton.swift in Sources */,
 				B398CE9C2317D1060008C5D3 /* MagicTabbarTransition.swift in Sources */,
 				B398CE9223179E830008C5D3 /* DetailViewController.swift in Sources */,
 			);
