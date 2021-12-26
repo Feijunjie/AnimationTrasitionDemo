@@ -37,9 +37,8 @@ class AViewController: UIViewController {
     
     @objc func jumpVC(btn: UIButton) {
         let vc = BViewController()
-//        vc.transitioningDelegate = self
-//        panTransiion = vc.percentTranstion
-        self.modalPresentationStyle  = .fullScreen
+        vc.modalPresentationStyle = .custom
+        vc.transitioningDelegate = vc
         self.present(vc, animated: true, completion: nil)
     }
 
